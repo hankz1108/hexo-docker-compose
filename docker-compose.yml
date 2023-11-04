@@ -7,8 +7,10 @@ services:
     # restart: always
     environment:
       HEXO_SERVER_PORT: 4000
+      SITE_PORT: 4000
       GIT_USER: ${GIT_USER}
       GIT_EMAIL: ${GIT_EMAIL}
+      TIME_ZONE: ${TIME_ZONE}
     ports:
       - ${SITE_PORT}:4000
     volumes:

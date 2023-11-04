@@ -5,10 +5,6 @@ MAINTAINER Hankz <hankz1108@gmail.com>
 # # Set the server port as an environmental
 # ENV HEXO_SERVER_PORT=4000
 
-# # Set the git username and email
-ENV GIT_USER=${GIT_USER}
-ENV GIT_EMAIL=${GIT_EMAIL}
-
 # Install requirements
 RUN \
   apt-get update && \
