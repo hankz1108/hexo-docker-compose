@@ -10,6 +10,7 @@ services:
       SITE_PORT: 4000
       GIT_USER: ${GIT_USER}
       GIT_EMAIL: ${GIT_EMAIL}
+      GITHUB_TOKEN: ${GITHUB_TOKEN}
       TIME_ZONE: ${TIME_ZONE}
     ports:
       - ${SITE_PORT}:4000
